@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --font-raleway: "Raleway", sans-serif;
+    --font-cormorant: "Cormorant", serif;
+    --font-didot: "GFS Didot", serif;
+
+    --tracking-raleway: 0.1em;
+    --tracking-cormorant: 0em;
+    --tracking-didot: 0.02em;
+}
