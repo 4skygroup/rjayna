@@ -7,5 +7,9 @@
 
     --tracking-raleway: 0.1em;
     --tracking-cormorant: 0em;
-    --tracking-didot: 0.02em;
+
+    --tracking-didot: 0.2em;
+
+    --color-slate: #989FAC;
+    --color-cream: #F6F1E7;
 }

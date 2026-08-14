@@ -1,9 +1,16 @@
+import QuiNousSommes from "../components/QuiNousSommes.tsx";
+import EcosystemeDeConfiance from "../components/EcosystemeDeConfiance.tsx";
+import Approche from "../components/Approche.tsx";
+import ExpertisesEtSecteurs from "../components/ExpertisesEtSecteurs.tsx";
 
 
 function Home() {
     return (
         <div>
-            test
+            <QuiNousSommes />
+            <ExpertisesEtSecteurs />
+            <EcosystemeDeConfiance />
+            <Approche />
         </div>
     );
 }
