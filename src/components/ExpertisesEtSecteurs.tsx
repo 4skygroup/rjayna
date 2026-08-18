@@ -4,7 +4,7 @@ interface Expertise {
 }
 
 const expertisesHaut: Expertise[] = [
-    { label: "Strategy Consulting", image: "img1.png" },
+    { label: "Strategy Consulting", image: "img1.jpg" },
     { label: "Concept Development", image: "img2.png" },
 ];
 

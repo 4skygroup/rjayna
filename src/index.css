@@ -4,11 +4,11 @@
     --font-raleway: "Raleway", sans-serif;
     --font-cormorant: "Cormorant", serif;
     --font-didot: "GFS Didot", serif;
+    --font-main-title: "MainTitle", serif;
 
     --tracking-raleway: 0.1em;
     --tracking-cormorant: 0em;
-
-    --tracking-didot: 0.2em;
+    --tracking-didot: 0.02em;
 
     --color-slate: #989FAC;
     --color-cream: #F6F1E7;
