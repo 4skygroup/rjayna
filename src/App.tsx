@@ -2,7 +2,7 @@ import ScrollToTop from "./components/ScrollToTop.tsx";
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/Home.tsx";
 import Navbar from "./components/Navbar.tsx";
-import Expertises from "./pages/Expertises.tsx";
+import Approche from "./pages/Approche.tsx";
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
           <Navbar />
           <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/expertises" element={<Expertises />} />
+              <Route path="/expertises" element={<Approche />} />
           </Routes>
       </>
   )
