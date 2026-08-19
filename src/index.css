@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "MainTitle";
+    src: url("/fonts/main-title.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 @theme {
     --font-raleway: "Raleway", sans-serif;
     --font-cormorant: "Cormorant", serif;

@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section className="bg-cream rounded-3xl px-6 py-20 sm:px-10 sm:py-24 lg:px-20 lg:py-32 text-center max-w-[1400px] w-full mx-auto">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight text-black">
+            <h1 className="font-main-title text-3xl sm:text-4xl lg:text-5xl leading-tight text-black font-semibold">
                 Strategy Consulting, Business Development
                 <br />
                 &amp; Project Management

@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
     { label: "À propos", href: "/a-propos" },
@@ -7,12 +9,15 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <header className="w-full">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-10">
                 <Link
                     to="/"
                     className="font-didot tracking-didot text-lg md:text-xl"
+                    onClick={() => setIsOpen(false)}
                 >
                     RJAYNA
                 </Link>
@@ -37,17 +42,57 @@ export default function Navbar() {
                     Contacter
                 </Link>
 
-                {/* Menu mobile à brancher si besoin (burger, etc.) */}
                 <button
                     type="button"
-                    className="inline-block md:hidden"
+                    onClick={() => setIsOpen(true)}
+                    className="inline-flex md:hidden"
                     aria-label="Ouvrir le menu"
                 >
-          <span className="font-raleway text-sm uppercase tracking-raleway">
-            Menu
-          </span>
+                    <Menu className="h-7 w-7" strokeWidth={1.5} />
                 </button>
             </nav>
+
+            {/* Overlay menu mobile */}
+            <div
+                className={`fixed inset-0 z-50 flex flex-col items-center bg-white text-black transition-transform duration-300 md:hidden ${
+                    isOpen ? "translate-x-0" : "translate-x-full"
+                }`}
+            >
+                <div className="flex w-full items-center justify-end px-6 py-6">
+                    <button
+                        type="button"
+                        onClick={() => setIsOpen(false)}
+                        aria-label="Fermer le menu"
+                        className="inline-flex items-center justify-center p-2 text-black"
+                    >
+                        <X className="h-5 w-5" strokeWidth={1.5} />
+                    </button>
+                </div>
+
+                <ul className="flex flex-1 flex-col items-center justify-center gap-8">
+                    {navLinks.map((link) => (
+                        <li key={link.href}>
+                            <Link
+                                to={link.href}
+                                onClick={() => setIsOpen(false)}
+                                className="font-raleway tracking-raleway text-base uppercase text-black transition-colors hover:text-cream"
+                            >
+                                {link.label}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+
+                <div className="pb-12">
+                    <Link
+                        to="/contact"
+                        onClick={() => setIsOpen(false)}
+                        className="rounded-full bg-cream px-8 py-3 font-raleway tracking-raleway text-sm uppercase text-black"
+                    >
+                        Contacter
+                    </Link>
+                </div>
+            </div>
         </header>
     );
 }

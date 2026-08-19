@@ -1,26 +1,26 @@
 const etapes = [
     {
         numero: "1",
-        citation: "« Transformer les connaissances en une base solide. »",
+        citation: "Transformer les connaissances en une base solide.",
         description: "Analyse de marché, stratégie de positionnement, plans d'affaires.",
     },
     {
         numero: "2",
-        citation: "« Traduire la stratégie en un concept distinctif. »",
+        citation: "Traduire la stratégie en un concept distinctif.",
         description: "Identité de marque, design narratif, direction de l'expérience.",
     },
     {
         numero: "3",
-        citation: "« Donner vie au concept et assurer la performance. »",
+        citation: "Donner vie au concept et assurer la performance. ",
         description: "Recrutement clé, manuels opérationnels, audits d'excellence.",
     },
 ];
 
 export default function DeLaVisionALaRealisation() {
     return (
-        <section className="bg-cream px-6 py-20 md:px-10 lg:py-28">
+        <section className="px-6 py-20 md:px-10 lg:py-28">
             <div className="mx-auto max-w-6xl">
-                <h2 className="font-didot tracking-didot text-2xl uppercase md:text-3xl">
+                <h2 className="font-didot tracking-didot text-sm uppercase font-bold sm:text-xl">
                     De la vision à la réalisation
                 </h2>
 
