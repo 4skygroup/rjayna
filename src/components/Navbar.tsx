@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
         <header className="w-full">
-            <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-10">
+            <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
                 <Link
                     to="/"
                     onClick={() => setIsOpen(false)}
