@@ -16,10 +16,9 @@ export default function Navbar() {
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-10">
                 <Link
                     to="/"
-                    className="font-didot tracking-didot text-lg md:text-xl"
                     onClick={() => setIsOpen(false)}
                 >
-                    RJAYNA
+                    <img src="/rjayna.png" className="w-25" alt="logo"/>
                 </Link>
 
                 <ul className="hidden items-center gap-10 md:flex">

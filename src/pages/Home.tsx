@@ -9,8 +9,8 @@ function Home() {
     return (
         <div>
             <Hero/>
-            <img src="/home-img.png" className="w-full h-auto mt-12" alt="vivez l'expérience avec Rjayna"/>
             <QuiNousSommes/>
+            <img src="/home-img.png" className="w-full h-auto mt-12" alt="vivez l'expérience avec Rjayna"/>
             <ExpertisesEtSecteurs/>
             <EcosystemeDeConfiance/>
             <Approche/>
