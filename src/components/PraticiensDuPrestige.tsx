@@ -7,7 +7,7 @@ export default function PraticiensDuPrestige() {
     return (
         <section className="w-full">
             <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
-                <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl mb-10">
                     Praticiens du Prestige
                 </h2>
 

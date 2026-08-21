@@ -8,9 +8,10 @@ import PraticiensDuPrestige from "../components/PraticiensDuPrestige.tsx";
 function Approche() {
     return (
         <div>
+            <PhilosophieSurMesure />
+
             <PiliersExecution />
             <DeLaVisionALaRealisation />
-            <PhilosophieSurMesure />
             <Discretion />
             <PraticiensDuPrestige />
             <Secteurs />

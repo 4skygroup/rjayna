@@ -28,15 +28,13 @@ export default function () {
 
                 {/* Bloc contact */}
                 <div className="flex flex-col gap-6">
-                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                    <img src="/rjayna.png" className="w-35" alt="logo"/>
+
+                    <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl">
                         Contactez-nous
                     </h2>
 
-                    <p className="font-cormorant tracking-cormorant text-lg text-black">
-                        Connectez-vous avec RJAYNA Worldwide
-                    </p>
-
-                    <button className="w-fit border border-slate px-6 py-3 font-raleway tracking-raleway text-xs uppercase text-black hover:bg-slate hover:text-cream transition-colors">
+                    <button className="w-fit border border-slate px-6 py-3 font-raleway tracking-raleway text-xs uppercase text-black [transform:scaleY(0.85)] hover:bg-slate hover:text-cream transition-colors">
                         Contactez-nous
                     </button>
 
@@ -70,7 +68,7 @@ export default function () {
                         <Link
                             key={link.label}
                             to={link.href}
-                            className="font-raleway tracking-raleway text-xs uppercase text-black hover:opacity-70 transition-opacity"
+                            className="font-raleway tracking-raleway text-xs uppercase text-black [transform:scaleY(0.85)] hover:opacity-70 transition-opacity"
                         >
                             {link.label}
                         </Link>
@@ -83,7 +81,7 @@ export default function () {
                         <Link
                             key={link.label}
                             to={link.href}
-                            className="font-raleway tracking-raleway text-xs uppercase text-black hover:opacity-70 transition-opacity"
+                            className="font-raleway tracking-raleway text-xs uppercase text-black [transform:scaleY(0.85)] hover:opacity-70 transition-opacity"
                         >
                             {link.label}
                         </Link>

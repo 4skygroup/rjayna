@@ -3,7 +3,7 @@ export default function PhilosophieSurMesure() {
         <section className=" px-6 py-20 md:px-10 lg:py-28">
             <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
                 <div>
-                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                    <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl">
                         Philosophie du sur-mesure
                     </h2>
 
@@ -31,9 +31,9 @@ export default function PhilosophieSurMesure() {
 
                 <div className="w-full">
                     <img
-                        src=""
-                        alt=""
-                        className="h-full w-full min-h-[280px] rounded-sm object-cover md:min-h-[400px]"
+                        src="/philosohie.png"
+                        alt="philosophie de Rjayna"
+                        className="h-full w-full min-h-[280px] object-cover md:min-h-[400px] rounded-2xl"
                     />
                 </div>
             </div>

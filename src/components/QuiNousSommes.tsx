@@ -5,7 +5,7 @@ export default function QuiNousSommes() {
                 <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
                     {/* Colonne texte */}
                     <div className="order-2 lg:order-1">
-                        <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                        <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl">
                             Qui nous sommes
                         </h2>
 
@@ -34,11 +34,11 @@ export default function QuiNousSommes() {
 
                     {/* Colonne image */}
                     <div className="order-1 lg:order-2">
-                        <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate/20 sm:aspect-[16/10] lg:aspect-[4/3]">
+                        <div className="relative aspect-[4/3] w-full overflow-hidden sm:aspect-[16/10] lg:aspect-[4/3]">
                             <img
-                                src="/img.png"
+                                src="/nous.png"
                                 alt="Bateau de luxe vu du ciel"
-                                className="h-full w-full object-cover"
+                                className="h-full w-full object-cover rounded-2xl"
                             />
                         </div>
                     </div>

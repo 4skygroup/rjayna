@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap");
 @import "tailwindcss";
 
 @font-face {
@@ -20,6 +21,10 @@
     --tracking-cormorant: 0em;
     --tracking-didot: 0.02em;
     --tracking-montserrat-title: 0.16em;
+
+    --tracking-tight-caps: -0.03em;
+    --font-barlow: "Barlow Condensed", sans-serif;
+    --tracking-barlow: 0.08em;
 
     --color-slate: #989FAC;
     --color-cream: #F6F1E7;

@@ -10,7 +10,7 @@ export default function Hero() {
             </h1>
 
             <p className="font-cormorant tracking-cormorant text-black text-sm sm:text-base mt-6 max-w-2xl mx-auto">
-                Rjayna accompagne les maisons de prestige et les individualités d'exception
+                RJAYNA accompagne les maisons de prestige et les individualités d'exception
                 dans la construction de stratégies rares, où chaque décision sert une seule
                 exigence : l'intemporalité.
             </p>

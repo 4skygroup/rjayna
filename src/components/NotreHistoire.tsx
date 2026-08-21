@@ -4,7 +4,7 @@ export default function NotreHistoire() {
             {/* Colonne texte */}
             <div className="bg-cream flex items-center px-6 py-16 sm:px-12 lg:px-16 xl:px-24">
                 <div className="max-w-xl mx-auto lg:mx-0">
-                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl mb-10">
+                    <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl mb-10">
                         Notre histoire
                     </h2>
 

@@ -27,7 +27,7 @@ export default function EcosystemeDeConfiance() {
             <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20 lg:px-12 lg:py-24">
                 {/* En-tête */}
                 <div className="text-center">
-                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                    <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl">
                         L'écosystème de confiance
                     </h2>
 

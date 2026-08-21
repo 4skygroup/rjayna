@@ -30,7 +30,7 @@ export default function VingtUnivers() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Titre */}
                 <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
-                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                    <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl">
                         Vingt Univers, Une Seule Discipline
                     </h2>
                     <p className="font-cormorant tracking-cormorant text-lg sm:text-xl text-black mt-4">
