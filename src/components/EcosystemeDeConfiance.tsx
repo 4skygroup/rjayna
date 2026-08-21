@@ -27,9 +27,10 @@ export default function EcosystemeDeConfiance() {
             <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20 lg:px-12 lg:py-24">
                 {/* En-tête */}
                 <div className="text-center">
-                    <h2 className="font-didot tracking-didot text-sm uppercase font-bold sm:text-xl">
+                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
                         L'écosystème de confiance
                     </h2>
+
                     <p className="mx-auto mt-4 max-w-4xl font-cormorant text-base leading-relaxed text-neutral-700 sm:text-lg">
                         Une approche stratégique au service de l'Art de Vivre. Nous
                         accompagnons les maisons de prestige dans leur quête de

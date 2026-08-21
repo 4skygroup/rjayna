@@ -26,7 +26,7 @@ export default function Navbar() {
                         <li key={link.href}>
                             <Link
                                 to={link.href}
-                                className="font-raleway tracking-raleway text-sm uppercase text-black/80 transition-colors hover:text-black"
+                                className="font-montserrat font-semibold text-sm uppercase text-black/80 transition-colors hover:text-black"
                             >
                                 {link.label}
                             </Link>

@@ -47,8 +47,8 @@ export default function ExpertisesEtSecteurs() {
             <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20 lg:px-12 lg:py-24">
                 {/* En-tête */}
                 <div className="text-center">
-                    <h2 className="font-didot tracking-didot text-xl uppercase text-neutral-900 sm:text-2xl">
-                        Expertises &amp; secteurs
+                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                        Expertises secteurs
                     </h2>
 
                     <p className="mx-auto mt-4 max-w-2xl font-cormorant text-base leading-relaxed text-neutral-700 sm:text-lg">

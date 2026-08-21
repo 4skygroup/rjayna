@@ -20,7 +20,7 @@ export default function DeLaVisionALaRealisation() {
     return (
         <section className="px-6 py-20 md:px-10 lg:py-28">
             <div className="mx-auto max-w-6xl">
-                <h2 className="font-didot tracking-didot text-sm uppercase font-bold sm:text-xl">
+                <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
                     De la vision à la réalisation
                 </h2>
 

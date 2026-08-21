@@ -8,9 +8,9 @@ export default function Discretion() {
             />
 
             <div className="relative -mt-24 mx-auto w-[90%] sm:absolute sm:top-[60%] sm:right-[15%] sm:-translate-y-1/2 sm:mt-0 sm:mx-0 sm:w-[380px] lg:w-[420px] bg-cream rounded-2xl p-8 lg:p-10 text-center">
-                <p className="font-raleway tracking-raleway text-xs text-black uppercase mb-6">
+                <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
                     La discrétion est notre sceau.
-                </p>
+                </h2>
 
                 <p className="font-cormorant tracking-cormorant text-lg lg:text-xl leading-relaxed text-black mb-8">
                     Nous opérons exclusivement par recommandation directe.

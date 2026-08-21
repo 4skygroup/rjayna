@@ -5,11 +5,12 @@ export default function QuiNousSommes() {
                 <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
                     {/* Colonne texte */}
                     <div className="order-2 lg:order-1">
-                        <h2 className="font-didot tracking-didot text-sm uppercase font-bold sm:text-xl">
-                            Qui nous sommes&nbsp;?
+                        <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
+                            Qui nous sommes
                         </h2>
 
-                        <div className="mt-6 space-y-4 font-cormorant text-base leading-relaxed text-neutral-800 sm:text-lg">
+                        <div
+                            className="mt-6 space-y-4 font-cormorant text-base leading-relaxed text-neutral-800 sm:text-lg">
                             <p>
                                 Fondée par des stratèges issus des plus grandes maisons de
                                 prestige, Rjayna s'adresse à une clientèle restreinte :

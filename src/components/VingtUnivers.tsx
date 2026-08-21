@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 
 const expertises: { label: string; href: string }[] = [
-    { label: "Palace Hotels & Exclusive Resorts", href: "" },
-    { label: "Luxury Real Estate", href: "" },
-    { label: "Fine Dining & Culinary Arts", href: "" },
-    { label: "Spas, Wellness & Health Retreats", href: "" },
-    { label: "Fine Wines, Spirits & Vineyards", href: "" },
-    { label: "Premium Cosmetics & Niche Perfumery", href: "" },
-    { label: "Haute Couture & Luxury Ready-to-Wear", href: "" },
-    { label: "Art de Vivre & Interior Design", href: "" },
-    { label: "Leather Goods & Prestige Accessories", href: "" },
-    { label: "Art Market & Prestige Galleries", href: "" },
-    { label: "High Jewelry & Precious Stones", href: "/" },
-    { label: "Luxury Concierge & Lifestyle Management", href: "" },
-    { label: "Haute Horlogerie & High Complications", href: "" },
+    { label: "Palace Hotels & Exclusive Resorts", href: "/expertises/palace-hotels" },
+    { label: "Luxury Real Estate", href: "/expertises/luxury-real-estate" },
+    { label: "Fine Dining & Culinary Arts", href: "/expertises/fine-dining" },
+    { label: "Spas, Wellness & Health Retreats", href: "/expertises/spas-wellness" },
+    { label: "Fine Wines, Spirits & Vineyards", href: "/expertises/wines-spirits" },
+    { label: "Premium Cosmetics & Niche Perfumery", href: "/expertises/cosmetics-perfumery" },
+    { label: "Haute Couture & Luxury Ready-to-Wear", href: "/expertises/haute-couture" },
+    { label: "Art de Vivre & Interior Design", href: "/expertises/art-de-vivre" },
+    { label: "Leather Goods & Prestige Accessories", href: "/expertises/leather-goods" },
+    { label: "Art Market & Prestige Galleries", href: "/expertises/art-market" },
+    { label: "High Jewelry & Precious Stones", href: "/expertises/high-jewelry" },
+    { label: "Luxury Concierge & Lifestyle Management", href: "/expertises/concierge-lifestyle" },
+    { label: "Haute Horlogerie & High Complications", href: "/expertises/haute-horlogerie" },
     { label: "Prestige Events & Galas", href: "/expertises/prestige-events" },
     { label: "Yachting & Naval Design", href: "/expertises/yachting" },
     { label: "Luxury E-commerce & Phygital Experience", href: "/expertises/ecommerce-phygital" },
@@ -30,7 +30,7 @@ export default function VingtUnivers() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Titre */}
                 <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
-                    <h2 className="font-didot tracking-didot text-sm uppercase font-bold sm:text-xl">
+                    <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl">
                         Vingt Univers, Une Seule Discipline
                     </h2>
                     <p className="font-cormorant tracking-cormorant text-lg sm:text-xl text-black mt-4">

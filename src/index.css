@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import "tailwindcss";
 
 @font-face {
@@ -13,10 +14,12 @@
     --font-cormorant: "Cormorant", serif;
     --font-didot: "GFS Didot", serif;
     --font-main-title: "MainTitle", serif;
+    --font-montserrat: "Montserrat", sans-serif;
 
     --tracking-raleway: 0.1em;
     --tracking-cormorant: 0em;
     --tracking-didot: 0.02em;
+    --tracking-montserrat-title: 0.16em;
 
     --color-slate: #989FAC;
     --color-cream: #F6F1E7;

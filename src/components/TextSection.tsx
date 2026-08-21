@@ -2,8 +2,8 @@ export default function TextSection() {
     return (
         <section className="w-full px-6 py-20 sm:px-12 lg:px-24">
             <div className="max-w-4xl mx-auto text-center">
-                <h2 className="font-didot tracking-didot text-sm uppercase font-bold sm:text-xl mb-10">
-                    UNE PLATEFORME DE CONSEIL INTERNATIONALE
+                <h2 className="font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl mb-10">
+                    Vingt Univers, Une Seule Discipline
                 </h2>
 
                 <div className="font-raleway text-black text-sm sm:text-base leading-relaxed space-y-6">

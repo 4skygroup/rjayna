@@ -11,15 +11,15 @@ const panels = [
         title: "Contactez nous",
         buttonText: "En savoir plus",
         href: "#",
-        image: "/droite-propos.png",
+        image: "droite-propos.png",
     },
 ];
 
 export default function SplitBanner() {
     return (
-        <section className="w-[1200px] grid grid-cols-2">
+        <section className="w-full grid sm:grid-cols-2">
             {panels.map((panel, index) => (
-                <div key={index} className="relative h-[80vh]">
+                <div key={index} className="relative h-[60vh] sm:h-[80vh]">
                     <img
                         src={panel.image}
                         alt={panel.title}
@@ -28,14 +28,13 @@ export default function SplitBanner() {
 
                     <div className="absolute inset-0 bg-black/40" />
 
-                    <div className="relative z-10 h-full flex flex-col justify-end px-10 pb-16">
-                        <p className="font-raleway tracking-raleway text-cream text-sm uppercase mb-3">
+                    <div className="relative z-10 h-full flex flex-col justify-end px-6 pb-12 sm:px-10 sm:pb-16">
+                        <p className="font-raleway tracking-raleway text-cream text-xs sm:text-sm uppercase mb-3">
                             {panel.eyebrow}
                         </p>
-
-                        <h3 className="font-didot tracking-didot text-cream text-3xl uppercase mb-6">
+                        <h2 className="text-white font-montserrat uppercase tracking-montserrat-title font-semibold text-lg md:text-xl lg:text-2xl mb-6">
                             {panel.title}
-                        </h3>
+                        </h2>
 
                         <a
                             href={panel.href}
