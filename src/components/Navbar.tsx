@@ -37,7 +37,9 @@ export default function Navbar() {
                     to="/contact"
                     className="hidden rounded-full bg-black px-6 py-2.5 font-raleway tracking-raleway text-sm uppercase text-cream transition-opacity hover:opacity-90 md:inline-block"
                 >
-                    Contacter
+                    <p className="font-raleway tracking-raleway text-xs uppercase text-white [transform:scaleY(0.85)] ">
+                        Contacter
+                    </p>
                 </Link>
 
                 <button
