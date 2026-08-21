@@ -38,7 +38,7 @@ export default function Navbar() {
                     className="hidden rounded-full bg-black px-6 py-2.5 font-raleway tracking-raleway text-sm uppercase text-cream transition-opacity hover:opacity-90 md:inline-block"
                 >
                     <p className="font-raleway tracking-raleway text-xs uppercase text-white [transform:scaleY(0.85)] ">
-                        Contacter
+                        Contacter - nous
                     </p>
                 </Link>
 
