@@ -10,6 +10,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "glacial";
+    src: url("/fonts/GlacialIndifference-Regular.woff") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 @theme {
     --font-raleway: "Raleway", sans-serif;
     --font-cormorant: "Cormorant", serif;

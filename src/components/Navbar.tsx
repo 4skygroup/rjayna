@@ -8,26 +8,26 @@ const navLinks = [
     { label: "Approche", href: "/approche" },
 ];
 
-export default function Navbar() {
+export default function Navbar({ onLogoClick }: { onLogoClick: () => void }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <header className="w-full">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
-                <Link
-                    to="/"
-                    onClick={() => setIsOpen(false)}
-                >
-                    <img src="/rjayna.png" className="w-25" alt="logo"/>
-                </Link>
+                <button type="button" onClick={onLogoClick} aria-label="Rejouer l'intro">
+                    <img src="/rjayna.png" className="w-25" alt="logo" />
+                </button>
 
                 <ul className="hidden items-center gap-10 md:flex">
                     {navLinks.map((link) => (
                         <li key={link.href}>
                             <Link
                                 to={link.href}
-                                className="font-raleway tracking-raleway text-xs uppercase text-black [transform:scaleY(0.85)] transition-colors hover:text-black"                            >
-                                {link.label}
+                                className="font-raleway tracking-raleway text-xs uppercase text-black [transform:scaleY(0.85)] transition-colors hover:text-black"
+                            >
+                                <p className="font-raleway tracking-raleway text-xs uppercase [transform:scaleY(0.85)]">
+                                    {link.label}
+                                </p>
                             </Link>
                         </li>
                     ))}
@@ -37,7 +37,7 @@ export default function Navbar() {
                     to="/contact"
                     className="hidden rounded-full bg-black px-6 py-2.5 font-raleway tracking-raleway text-sm uppercase text-cream transition-opacity hover:opacity-90 md:inline-block"
                 >
-                    <p className="font-raleway tracking-raleway text-xs uppercase text-white [transform:scaleY(0.85)] ">
+                    <p className="font-raleway tracking-raleway text-xs uppercase text-white [transform:scaleY(0.85)]">
                         Contactez - nous
                     </p>
                 </Link>

@@ -1,7 +1,7 @@
 const stats = [
-    { number: "20", label: "Univers\nd'Expertise" },
-    { number: "3", label: "Paris, Londres,\nNew York" },
-    { number: "20", label: "Univers\nd'Expertise" },
+    { number: "20", label: "Univers d'Expertise" },
+    { number: "3", label: "Paris, Londres, New York" },
+    { number: "20", label: "Univers d'Expertise" },
 ];
 
 export default function Stats() {

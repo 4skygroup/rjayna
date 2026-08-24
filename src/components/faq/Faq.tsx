@@ -9,7 +9,7 @@ const FAQ = () => {
     return (
         <section className="w-full bg-white flex flex-col items-center px-6 py-16">
 
-            <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl">
+            <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl mb-10">
                 Questions Fréquentes
             </h2>
 
