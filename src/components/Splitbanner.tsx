@@ -24,6 +24,7 @@ export default function SplitBanner() {
                         src={panel.image}
                         alt={panel.title}
                         className="absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
                     />
 
                     <div className="absolute inset-0 bg-black/40" />

@@ -36,6 +36,7 @@ export default function NotreHistoire() {
                     src="/robbin.png"
                     alt="Notre histoire RJAYNA"
                     className="w-full h-full object-contain"
+                    loading="lazy"
                 />
             </div>
         </section>

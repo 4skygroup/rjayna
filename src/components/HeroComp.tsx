@@ -5,6 +5,7 @@ export default function HeroComp() {
                 src="/hero-about.png"
                 alt="À propos de RJAYNA"
                 className="absolute inset-0 w-full h-full object-cover"
+                loading="lazy"
             />
 
             <div className="absolute inset-0 bg-black/30" />

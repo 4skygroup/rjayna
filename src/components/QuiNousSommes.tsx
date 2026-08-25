@@ -6,7 +6,7 @@ export default function QuiNousSommes() {
                     {/* Colonne texte */}
                     <div className="order-2 lg:order-1">
                         <h2 className="font-montserrat uppercase [transform:scaleY(0.85)] tracking-montserrat-title font-semibold text-base md:text-lg lg:text-xl">
-                            Qui nous sommes
+                            Qui nous sommes ?
                         </h2>
 
                         <div
