@@ -9,18 +9,23 @@ import Footer from "./components/Footer.tsx";
 import About from "./pages/About.tsx";
 import IntroOverlay from "./components/IntroOverlay.tsx";
 import Contact from "./components/form/Contact.tsx";
+import PalaceHotel from "./pages/expertises/PalaceHotel.tsx";
+import Luxury from "./pages/expertises/Luxury.tsx";
+import FineDiningCulinaryArts from "./pages/expertises/FineDiningCulinaryArts.tsx";
+import SpasWellnessHealthRetreats from "./pages/expertises/SpasWellnessHealthRetreats.tsx";
+import FineWinesSpiritsVineyards from "./pages/expertises/FineWinesSpiritsVineyards.tsx";
 
 function App() {
     const [showIntro, setShowIntro] = useState(true);
 
     useEffect(() => {
-        const t = setTimeout(() => setShowIntro(false), 7000);
+        const t = setTimeout(() => setShowIntro(false), 2000);
         return () => clearTimeout(t);
     }, []);
 
     const playIntro = () => {
         setShowIntro(true);
-        setTimeout(() => setShowIntro(false), 7000);
+        setTimeout(() => setShowIntro(false), 2000);
     };
 
     return (
@@ -34,6 +39,14 @@ function App() {
                 <Route path="/expertises" element={<Expertises />} />
                 <Route path="/approche" element={<Approche />} />
                 <Route path="/contact" element={<Contact />} />
+
+                <Route path="/expertises/palace-hotels" element={<PalaceHotel />} />
+                <Route path="/expertises/luxury-real-estate" element={<Luxury />} />
+                <Route path="/expertises/fine-dining" element={<FineDiningCulinaryArts />} />
+                <Route path="/expertises/spas-wellness" element={<SpasWellnessHealthRetreats />} />
+                <Route path="/expertises/wines-spirits" element={<FineWinesSpiritsVineyards />} />
+                <Route path="/expertises/cosmetics-perfumery" element={<FineWinesSpiritsVineyards />} />
+
             </Routes>
             <Footer />
         </>

@@ -4,7 +4,7 @@ const cards = [
     {
         icon: <Mail className="w-5 h-5 text-black" />,
         label: "Email",
-        value: "contact@rjayna.agency",
+        value: "contact@rjayna.com",
     },
     {
         icon: <Phone className="w-5 h-5 text-black" />,

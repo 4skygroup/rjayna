@@ -8,6 +8,7 @@ const expertises: { label: string; href: string }[] = [
     { label: "Spas, Wellness & Health Retreats", href: "/expertises/spas-wellness" },
     { label: "Fine Wines, Spirits & Vineyards", href: "/expertises/wines-spirits" },
     { label: "Premium Cosmetics & Niche Perfumery", href: "/expertises/cosmetics-perfumery" },
+
     { label: "Haute Couture & Luxury Ready-to-Wear", href: "/expertises/haute-couture" },
     { label: "Art de Vivre & Interior Design", href: "/expertises/art-de-vivre" },
     { label: "Leather Goods & Prestige Accessories", href: "/expertises/leather-goods" },

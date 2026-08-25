@@ -14,10 +14,11 @@ export default function Navbar({ onLogoClick }: { onLogoClick: () => void }) {
     return (
         <header className="w-full">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
-                <button type="button" onClick={onLogoClick} aria-label="Rejouer l'intro">
-                    <img src="/rjayna.png" className="w-25" alt="logo" />
-                </button>
-
+                <Link to="/" >
+                    <button type="button" onClick={onLogoClick} aria-label="Rejouer l'intro">
+                        <img src="/rjayna.png" className="w-25" alt="logo" />
+                    </button>
+                </Link>
                 <ul className="hidden items-center gap-10 md:flex">
                     {navLinks.map((link) => (
                         <li key={link.href}>
