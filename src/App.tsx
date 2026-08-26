@@ -15,6 +15,7 @@ import FineDiningCulinaryArts from "./pages/expertises/FineDiningCulinaryArts.ts
 import SpasWellnessHealthRetreats from "./pages/expertises/SpasWellnessHealthRetreats.tsx";
 import FineWinesSpiritsVineyards from "./pages/expertises/FineWinesSpiritsVineyards.tsx";
 import HauteCoutureLuxuryReadyWear from "./pages/expertises/HauteCoutureLuxuryReadyWear.tsx";
+import LeatherGoodsPrestigeAccessories from "./pages/expertises/LeatherGoodsPrestigeAccessories.tsx";
 
 function App() {
     const [showIntro, setShowIntro] = useState(true);
@@ -48,6 +49,7 @@ function App() {
                 <Route path="/expertises/wines-spirits" element={<FineWinesSpiritsVineyards />} />
                 <Route path="/expertises/cosmetics-perfumery" element={<FineWinesSpiritsVineyards />} />
                 <Route path="/expertises/haute-couture" element={<HauteCoutureLuxuryReadyWear />} />
+                <Route path="/expertises/leather-goods" element={<LeatherGoodsPrestigeAccessories />} />
 
             </Routes>
             <Footer />

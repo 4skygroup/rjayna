@@ -10,8 +10,8 @@ const expertises: { label: string; href: string }[] = [
     { label: "Premium Cosmetics & Niche Perfumery", href: "/expertises/cosmetics-perfumery" },
     { label: "Haute Couture & Luxury Ready-to-Wear", href: "/expertises/haute-couture" },
     { label: "Art de Vivre & Interior Design", href: "/expertises/art-de-vivre" },
-
     { label: "Leather Goods & Prestige Accessories", href: "/expertises/leather-goods" },
+
     { label: "Art Market & Prestige Galleries", href: "/expertises/art-market" },
     { label: "High Jewelry & Precious Stones", href: "/expertises/high-jewelry" },
     { label: "Luxury Concierge & Lifestyle Management", href: "/expertises/concierge-lifestyle" },
