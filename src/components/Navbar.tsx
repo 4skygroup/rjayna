@@ -6,94 +6,83 @@ const navLinks = [
     { label: "À propos", href: "/a-propos" },
     { label: "Expertises", href: "/expertises" },
     { label: "Approche", href: "/approche" },
+    { label: "Contactez-nous", href: "/contact" },
 ];
 
 export default function Navbar({ onLogoClick }: { onLogoClick: () => void }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="w-full">
-            <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
-                <Link to="/" >
-                    <button type="button" onClick={onLogoClick} aria-label="Rejouer l'intro">
-                        <img src="/rjayna.png" className="w-25" alt="logo" />
+        <>
+            <header className="relative w-full">
+                <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-10">
+                    <button
+                        type="button"
+                        onClick={() => setIsOpen(true)}
+                        aria-label="Ouvrir le menu"
+                        className="inline-flex items-center"
+                    >
+                        <Menu className="h-6 w-6" strokeWidth={1.2} />
                     </button>
-                </Link>
-                <ul className="hidden items-center gap-10 md:flex">
-                    {navLinks.map((link) => (
-                        <li key={link.href}>
+
+                    <Link
+                        to="/"
+                        onClick={onLogoClick}
+                        className="absolute left-1/2 -translate-x-1/2"
+                    >
+                        <img src="/rjayna.png" className="w-24" alt="RJAYNA" />
+                    </Link>
+
+                    <span className="w-6" />
+                </nav>
+            </header>
+
+            {/* Backdrop */}
+            <div
+                onClick={() => setIsOpen(false)}
+                className={`fixed inset-0 z-40 bg-black/50 backdrop-blur-sm transition-opacity duration-500 ${
+                    isOpen ? "opacity-100" : "pointer-events-none opacity-0"
+                }`}
+            />
+
+            {/* Sidebar */}
+            <aside
+                className={`fixed left-0 top-0 z-50 h-full w-[85%] max-w-[420px] bg-black transition-transform duration-500 ease-in-out ${
+                    isOpen ? "translate-x-0" : "-translate-x-full"
+                }`}
+            >
+                <div className="flex items-center justify-end px-6 py-6">
+                    <button
+                        type="button"
+                        onClick={() => setIsOpen(false)}
+                        aria-label="Fermer le menu"
+                        className="inline-flex items-center justify-center p-2 text-cream"
+                    >
+                        <X className="h-6 w-6" strokeWidth={1.2} />
+                    </button>
+                </div>
+
+                <ul className="flex flex-col gap-8 px-10 pt-10">
+                    {navLinks.map((link, index) => (
+                        <li
+                            key={link.href}
+                            className={`overflow-hidden transition-all duration-500 ease-out ${
+                                isOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+                            }`}
+                            style={{ transitionDelay: isOpen ? `${150 + index * 100}ms` : "0ms" }}
+                        >
                             <Link
                                 to={link.href}
-                                className="font-raleway tracking-raleway text-xs uppercase text-black [transform:scaleY(0.85)] transition-colors hover:text-black"
+                                onClick={() => setIsOpen(false)}
                             >
-                                <p className="font-raleway tracking-raleway text-xs uppercase [transform:scaleY(0.85)]">
+                                <p className="font-montserrat uppercase [transform:scaleY(0.85)] font-bold text-lg text-cream transition-colors hover:text-slate">
                                     {link.label}
                                 </p>
                             </Link>
                         </li>
                     ))}
                 </ul>
-
-                <Link
-                    to="/contact"
-                    className="hidden rounded-full bg-black px-6 py-2.5 font-raleway tracking-raleway text-sm uppercase text-cream transition-opacity hover:opacity-90 md:inline-block"
-                >
-                    <p className="font-raleway tracking-raleway text-xs uppercase text-white [transform:scaleY(0.85)]">
-                        Contactez - nous
-                    </p>
-                </Link>
-
-                <button
-                    type="button"
-                    onClick={() => setIsOpen(true)}
-                    className="inline-flex md:hidden"
-                    aria-label="Ouvrir le menu"
-                >
-                    <Menu className="h-7 w-7" strokeWidth={1.5} />
-                </button>
-            </nav>
-
-            {/* Overlay menu mobile */}
-            <div
-                className={`fixed inset-0 z-50 flex flex-col items-center bg-white text-black transition-transform duration-300 md:hidden ${
-                    isOpen ? "translate-x-0" : "translate-x-full"
-                }`}
-            >
-                <div className="flex w-full items-center justify-end px-6 py-6">
-                    <button
-                        type="button"
-                        onClick={() => setIsOpen(false)}
-                        aria-label="Fermer le menu"
-                        className="inline-flex items-center justify-center p-2 text-black"
-                    >
-                        <X className="h-5 w-5" strokeWidth={1.5} />
-                    </button>
-                </div>
-
-                <ul className="flex flex-1 flex-col items-center justify-center gap-8">
-                    {navLinks.map((link) => (
-                        <li key={link.href}>
-                            <Link
-                                to={link.href}
-                                onClick={() => setIsOpen(false)}
-                                className="font-raleway tracking-raleway text-base uppercase text-black transition-colors hover:text-cream"
-                            >
-                                {link.label}
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
-
-                <div className="pb-12">
-                    <Link
-                        to="/contact"
-                        onClick={() => setIsOpen(false)}
-                        className="rounded-full bg-cream px-8 py-3 font-raleway tracking-raleway text-sm uppercase text-black"
-                    >
-                        Contactez - nous
-                    </Link>
-                </div>
-            </div>
-        </header>
+            </aside>
+        </>
     );
 }

@@ -7,12 +7,17 @@ const expertises: { label: string; href: string }[] = [
     { label: "Fine Dining & Culinary Arts", href: "/expertises/fine-dining" },
     { label: "Spas, Wellness & Health Retreats", href: "/expertises/spas-wellness" },
     { label: "Fine Wines, Spirits & Vineyards", href: "/expertises/wines-spirits" },
+    // pas bon
     { label: "Premium Cosmetics & Niche Perfumery", href: "/expertises/cosmetics-perfumery" },
+    // bon
     { label: "Haute Couture & Luxury Ready-to-Wear", href: "/expertises/haute-couture" },
+    // bon
     { label: "Art de Vivre & Interior Design", href: "/expertises/art-de-vivre" },
+    // bon
     { label: "Leather Goods & Prestige Accessories", href: "/expertises/leather-goods" },
-
+    // bon
     { label: "Art Market & Prestige Galleries", href: "/expertises/art-market" },
+
     { label: "High Jewelry & Precious Stones", href: "/expertises/high-jewelry" },
     { label: "Luxury Concierge & Lifestyle Management", href: "/expertises/concierge-lifestyle" },
     { label: "Haute Horlogerie & High Complications", href: "/expertises/haute-horlogerie" },
