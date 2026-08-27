@@ -19,8 +19,11 @@ const expertises: { label: string; href: string }[] = [
     { label: "Art Market & Prestige Galleries", href: "/expertises/art-market" },
 
     { label: "High Jewelry & Precious Stones", href: "/expertises/high-jewelry" },
+
     { label: "Luxury Concierge & Lifestyle Management", href: "/expertises/concierge-lifestyle" },
+
     { label: "Haute Horlogerie & High Complications", href: "/expertises/haute-horlogerie" },
+
     { label: "Prestige Events & Galas", href: "/expertises/prestige-events" },
     { label: "Yachting & Naval Design", href: "/expertises/yachting" },
     { label: "Luxury E-commerce & Phygital Experience", href: "/expertises/ecommerce-phygital" },

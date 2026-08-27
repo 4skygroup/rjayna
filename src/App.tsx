@@ -17,6 +17,9 @@ import FineWinesSpiritsVineyards from "./pages/expertises/FineWinesSpiritsVineya
 import HauteCoutureLuxuryReadyWear from "./pages/expertises/HauteCoutureLuxuryReadyWear.tsx";
 import LeatherGoodsPrestigeAccessories from "./pages/expertises/LeatherGoodsPrestigeAccessories.tsx";
 import ArtMarketPrestigeGalleries from "./pages/expertises/ArtMarketPrestigeGalleries.tsx";
+import HighJewelryPreciousStones from "./pages/expertises/HighJewelryPreciousStones.tsx";
+import LuxuryConciergeLifestyleManagement from "./pages/expertises/LuxuryConciergeLifestyleManagement.tsx";
+import HauteHorlogerieHighComplications from "./pages/expertises/HauteHorlogerieHighComplications.tsx";
 
 function App() {
     const [showIntro, setShowIntro] = useState(true);
@@ -54,6 +57,11 @@ function App() {
 
                 <Route path="/expertises/leather-goods" element={<LeatherGoodsPrestigeAccessories />} />
                 <Route path="/expertises/art-market" element={<ArtMarketPrestigeGalleries />} />
+                <Route path="/expertises/high-jewelry" element={<HighJewelryPreciousStones />} />
+                <Route path="/expertises/concierge-lifestyle" element={<LuxuryConciergeLifestyleManagement />} />
+                <Route path="/expertises/haute-horlogerie" element={<HauteHorlogerieHighComplications />} />
+
+
 
             </Routes>
             <Footer />

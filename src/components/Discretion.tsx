@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Discretion() {
     return (
         <section className="relative w-full">
@@ -18,9 +20,11 @@ export default function Discretion() {
                     central de notre relation de confiance avec nos clients.
                 </p>
 
-                <button className="bg-black text-cream font-raleway tracking-raleway text-xs uppercase px-8 py-4 rounded-full">
-                    Contactez-nous
-                </button>
+                <Link to="/contact">
+                    <button className="bg-black text-cream font-raleway tracking-raleway text-xs uppercase px-8 py-4 rounded-full">
+                        Contactez-nous
+                    </button>
+                </Link>
             </div>
         </section>
     );
