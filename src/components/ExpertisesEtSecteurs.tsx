@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 interface Expertise {
     label: string;
     image: string;
@@ -25,18 +27,19 @@ function CarteExpertise({ label, image }: Expertise) {
                 />
             </div>
 
-            <div className="flex h-[38px] items-center justify-between bg-cream px-3">
-                <span className="font-cormorant text-sm leading-none text-neutral-900">
-                    {label}
-                </span>
-
-                <span
-                    aria-hidden="true"
-                    className="text-lg leading-none text-neutral-900"
-                >
-                    →
-                </span>
-            </div>
+            <Link to="/expertises">
+                <div className="flex h-[38px] items-center justify-between bg-cream px-3">
+                    <span className="font-cormorant text-sm leading-none text-neutral-900">
+                        {label}
+                    </span>
+                    <span
+                        aria-hidden="true"
+                        className="text-lg leading-none text-neutral-900"
+                    >
+                        →
+                    </span>
+                </div>
+            </Link>
         </div>
     );
 }

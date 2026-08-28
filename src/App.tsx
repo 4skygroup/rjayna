@@ -20,6 +20,8 @@ import ArtMarketPrestigeGalleries from "./pages/expertises/ArtMarketPrestigeGall
 import HighJewelryPreciousStones from "./pages/expertises/HighJewelryPreciousStones.tsx";
 import LuxuryConciergeLifestyleManagement from "./pages/expertises/LuxuryConciergeLifestyleManagement.tsx";
 import HauteHorlogerieHighComplications from "./pages/expertises/HauteHorlogerieHighComplications.tsx";
+import PrestigeEventsGalas from "./pages/expertises/PrestigeEventsGalas.tsx";
+import YachtingNavalDesign from "./pages/expertises/YachtingNavalDesign.tsx";
 
 function App() {
     const [showIntro, setShowIntro] = useState(true);
@@ -61,7 +63,8 @@ function App() {
                 <Route path="/expertises/concierge-lifestyle" element={<LuxuryConciergeLifestyleManagement />} />
                 <Route path="/expertises/haute-horlogerie" element={<HauteHorlogerieHighComplications />} />
 
-
+                <Route path="/expertises/prestige-events" element={<PrestigeEventsGalas/>} />
+                <Route path="/expertises/yachting" element={<YachtingNavalDesign />} />
 
             </Routes>
             <Footer />

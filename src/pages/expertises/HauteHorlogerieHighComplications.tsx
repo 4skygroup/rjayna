@@ -21,7 +21,7 @@ function HauteHorlogerieHighComplications() {
                     { label: "Valorisation du savoir-faire", description: "Narration des métiers, des calibres et des complications." },
                     { label: "Développement de marque", description: "Lancement, distribution et implantation internationale." },
                 ]}
-                image=""
+                image="/logo.jpg"
                 ctaLabel="Développer une maison horlogère"
                 ctaLink="/contact"
             />
