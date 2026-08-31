@@ -22,6 +22,12 @@ import LuxuryConciergeLifestyleManagement from "./pages/expertises/LuxuryConcier
 import HauteHorlogerieHighComplications from "./pages/expertises/HauteHorlogerieHighComplications.tsx";
 import PrestigeEventsGalas from "./pages/expertises/PrestigeEventsGalas.tsx";
 import YachtingNavalDesign from "./pages/expertises/YachtingNavalDesign.tsx";
+import LuxuryECommercePhygitalExperience from "./pages/expertises/LuxuryECommercePhygitalExperience.tsx";
+import PrivateAviationJetServices from "./pages/expertises/PrivateAviationJetServices.tsx";
+import SpaceTourismPrivateExpeditions from "./pages/expertises/SpaceTourismPrivateExpeditions.tsx";
+import LuxuryAutomobilesHypercars from "./pages/expertises/LuxuryAutomobilesHypercars.tsx";
+import LuxuryEducationExcellenceAcademies from "./pages/expertises/LuxuryEducationExcellenceAcademies.tsx";
+import PremiumCosmeticsNichePerfumery from "./pages/expertises/PremiumCosmeticsNichePerfumery.tsx";
 
 function App() {
     const [showIntro, setShowIntro] = useState(true);
@@ -54,7 +60,7 @@ function App() {
                 <Route path="/expertises/spas-wellness" element={<SpasWellnessHealthRetreats />} />
                 <Route path="/expertises/wines-spirits" element={<FineWinesSpiritsVineyards />} />
 
-                <Route path="/expertises/cosmetics-perfumery" element={<FineWinesSpiritsVineyards />} />
+                <Route path="/expertises/cosmetics-perfumery" element={<PremiumCosmeticsNichePerfumery />} />
                 <Route path="/expertises/haute-couture" element={<HauteCoutureLuxuryReadyWear />} />
 
                 <Route path="/expertises/leather-goods" element={<LeatherGoodsPrestigeAccessories />} />
@@ -65,6 +71,13 @@ function App() {
 
                 <Route path="/expertises/prestige-events" element={<PrestigeEventsGalas/>} />
                 <Route path="/expertises/yachting" element={<YachtingNavalDesign />} />
+
+                <Route path="/expertises/ecommerce-phygital" element={<LuxuryECommercePhygitalExperience />} />
+                <Route path="/expertises/private-aviation" element={<PrivateAviationJetServices />} />
+                <Route path="/expertises/space-tourism" element={<SpaceTourismPrivateExpeditions />} />
+
+                <Route path="/expertises/luxury-automobiles" element={<LuxuryAutomobilesHypercars />} />
+                <Route path="/expertises/luxury-education" element={<LuxuryEducationExcellenceAcademies />} />
 
             </Routes>
             <Footer />

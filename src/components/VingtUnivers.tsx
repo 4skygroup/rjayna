@@ -26,6 +26,7 @@ const expertises: { label: string; href: string }[] = [
 
     { label: "Prestige Events & Galas", href: "/expertises/prestige-events" },
     { label: "Yachting & Naval Design", href: "/expertises/yachting" },
+
     { label: "Luxury E-commerce & Phygital Experience", href: "/expertises/ecommerce-phygital" },
     { label: "Private Aviation & Jet Services", href: "/expertises/private-aviation" },
     { label: "Space Tourism & Private Expeditions", href: "/expertises/space-tourism" },

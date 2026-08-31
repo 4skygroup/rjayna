@@ -5,7 +5,7 @@ function ArtMarketPrestigeGalleries() {
     return (
         <div>
             <SplitImageText
-                eyebrow="10 / ART MARKET & PRESTIGE GALLERIES"
+                eyebrow="ART MARKET & PRESTIGE GALLERIES"
                 title="Les Chefs-d'Œuvre du Temps"
                 lead="Un univers de création, de transmission et de valorisation du patrimoine artistique."
                 text="L'art constitue un puissant vecteur d'émotion, de réflexion et de transmission. Des maîtres anciens à la création contemporaine, chaque œuvre s'inscrit dans une histoire et dialogue avec les sensibilités de son époque."

@@ -21,7 +21,7 @@ function YachtingNavalDesign() {
                     { label: "Écosystème spécialisé", description: "Coordination avec chantiers, designers, courtiers et opérateurs." },
                     { label: "Développement commercial", description: "Positionnement, partenariats et accès aux marchés internationaux." },
                 ]}
-                image="/logo.png"
+                image="/logo.jpg"
                 ctaLabel="Développer un projet dans le yachting"
                 ctaLink="/contact"
             />

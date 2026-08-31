@@ -1,0 +1,19 @@
+{
+  "name": "RJAYNA — Project Management, Business Development & Strategy Consulting",
+  "short_name": "RJAYNA",
+  "description": "RJAYNA accompagne les projets et entreprises dans les univers du luxe, de l’hospitality et du lifestyle.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
+

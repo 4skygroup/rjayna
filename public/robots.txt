@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rjayna.com/sitemap.xml
+Sitemap: https://rjayna.com/sitemap-images.xml
+

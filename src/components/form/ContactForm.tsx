@@ -16,10 +16,11 @@ const timeSlots = [
 ];
 
 const subjects = [
-    "SEO & Référencement",
-    "Social Ads",
-    "Content Marketing",
-    "Analytics",
+    "Strategy Consulting",
+    "Concept Development",
+    "Project Management",
+    "Growth & Expansion",
+    "Operational Excellence",
     "Autre",
 ];
 
