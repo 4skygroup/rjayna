@@ -1,9 +1,16 @@
 import SplitImageText from "../../components/detail/SplitImageText.tsx";
 import CreamCard from "../../components/detail/CreamCard.tsx";
+import SEO from "../../components/SEO.tsx";
 
 function FineWinesSpiritsVineyards() {
     return (
         <div>
+            <SEO
+                title="Fine Wines, Spirits & Vineyards — RJAYNA"
+                description="RJAYNA accompagne les maisons, domaines et entrepreneurs dans la création, le repositionnement et le développement de marques de vins et spiritueux premium."
+                canonical="https://rjayna.com/expertises/wines-spirits"
+            />
+
             <SplitImageText
                 eyebrow="FINE WINES, SPIRITS & VINEYARDS"
                 title="Les Nectars d'Exception"

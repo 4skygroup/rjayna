@@ -5,11 +5,18 @@ import ExpertisesEtSecteurs from "../components/ExpertisesEtSecteurs.tsx";
 import Hero from "../components/Hero.tsx";
 import Faq from "../components/faq/Faq.tsx";
 import Stats from "../components/Stats.tsx";
+import SEO from "../components/SEO.tsx";
 
 
 function Home() {
     return (
         <div>
+            <SEO
+                title="RJAYNA — Project Management, Business Development & Strategy Consulting"
+                description="RJAYNA accompagne les projets et entreprises dans le luxe, l’hospitality et le lifestyle en Project Management, Business Development et Strategy Consulting, de la création à l’expansion internationale."
+                canonical="https://rjayna.com/"
+            />
+
             <Hero/>
             <Stats/>
             <QuiNousSommes/>

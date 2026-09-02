@@ -1,9 +1,16 @@
 import SplitImageText from "../../components/detail/SplitImageText.tsx";
 import CreamCard from "../../components/detail/CreamCard.tsx";
+import SEO from "../../components/SEO.tsx";
 
 function PalaceHotel() {
     return (
         <div>
+            <SEO
+                title="Palace Hotels & Luxury Resorts — RJAYNA"
+                description="RJAYNA accompagne la conception, la structuration et le développement de palaces, resorts et projets hôteliers haut de gamme, du positionnement au lancement opérationnel."
+                canonical="https://rjayna.com/expertises/palace-hotels"
+            />
+
             <SplitImageText
                 eyebrow="PALACE HOTELS & EXCLUSIVE RESORTS"
                 title="L'Art du Séjour d'Exception"

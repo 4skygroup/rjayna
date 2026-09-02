@@ -1,9 +1,16 @@
 import SplitImageText from "../../components/detail/SplitImageText.tsx";
 import CreamCard from "../../components/detail/CreamCard.tsx";
+import SEO from "../../components/SEO.tsx";
 
 function FineDiningCulinaryArts() {
     return (
         <div>
+            <SEO
+                title="Fine Dining & Culinary Arts — Gastronomie d'Exception | RJAYNA"
+                description="RJAYNA accompagne la création et le développement de concepts gastronomiques premium, restaurants, expériences culinaires et destinations de haute gastronomie."
+                canonical="https://rjayna.com/expertises/fine-dining"
+            />
+
             <SplitImageText
                 eyebrow="FINE DINING & CULINARY ARTS"
                 title="L'Excellence Gastronomique"

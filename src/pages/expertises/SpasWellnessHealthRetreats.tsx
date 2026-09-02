@@ -1,9 +1,16 @@
 import SplitImageText from "../../components/detail/SplitImageText.tsx";
 import CreamCard from "../../components/detail/CreamCard.tsx";
+import SEO from "../../components/SEO.tsx";
 
 function SpasWellnessHealthRetreats() {
     return (
         <div>
+            <SEO
+                title="Spas, Wellness & Health Retreats — RJAYNA"
+                description="RJAYNA accompagne la création et le développement de spas, wellness retreats et concepts premium dédiés au bien-être, à la santé préventive et à la longévité."
+                canonical="https://rjayna.com/expertises/spas-wellness"
+            />
+
             <SplitImageText
                 eyebrow="SPAS, WELLNESS & HEALTH RETREATS"
                 title="Le Sanctuaire du Bien-Être"

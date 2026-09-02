@@ -1,9 +1,16 @@
 import SplitImageText from "../../components/detail/SplitImageText.tsx";
 import CreamCard from "../../components/detail/CreamCard.tsx";
+import SEO from "../../components/SEO.tsx";
 
 function Luxury() {
     return (
         <div>
+            <SEO
+                title="Luxury Real Estate — Immobilier de Prestige | RJAYNA"
+                description="RJAYNA accompagne les projets d’immobilier de prestige : résidences, villas, domaines et développements haut de gamme, du concept au positionnement et à la commercialisation."
+                canonical="https://rjayna.com/expertises/luxury-real-estate"
+            />
+
             <SplitImageText
                 eyebrow="LUXURY REAL ESTATE"
                 title="Les Plus Belles Demeures du Monde"
